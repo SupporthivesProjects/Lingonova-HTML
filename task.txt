@@ -1,0 +1,7 @@
+figam link :https://www.figma.com/design/j0WGHiInVYV8TKkeS97lpz/AD490---ReDesign--Translation--Lingonova.Co?node-id=6804-24930&m=dev
+
+
+team task:->
+rahul:
+dhiraj:
+saakshi:
