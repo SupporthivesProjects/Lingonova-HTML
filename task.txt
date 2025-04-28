@@ -1,0 +1,11 @@
+figam link :https://www.figma.com/design/j0WGHiInVYV8TKkeS97lpz/AD490---ReDesign--Translation--Lingonova.Co?node-id=6804-24930&m=dev
+
+
+team task:->
+vijay: header ,footer,cart,index,Terms and Conditions, policypage,error,page,
+rahul:Order all Pages, about us, Certified Translations page,Supported Languages page, all modal
+dhiraj:Account all Pages, Join Us,Standard Translations page,Supported Documents page all modal
+saakshi: Sign in / Register all page , email templates,contact page, all modal
+
+
+Note:- please make mobile/laptop/large/device all device responsive 
