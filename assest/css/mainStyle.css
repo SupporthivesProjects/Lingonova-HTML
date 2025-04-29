@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -195,9 +196,322 @@ html,body{
     min-width: fit-content;
 }
 
+.contactus-hero-content h1{
+    color: var(--Grey-100, #FFF);
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.contactus-hero-content p{
+    color: var(--Grey-90, #E4E4E7);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+.col-box-three{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
 
+}
+.accordion-item h2{
+    color: var(--Grey-15, #262626);
+    font-family: Lexend;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%;
+    text-transform: capitalize;
+}
+.accordion-item p{
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-item {
+    border: 0px;
+    border-bottom: 0px solid #C7C7C7;
+    background: transparent;
+}
+.accordion-body{
+    padding-top: 0px;
+    margin-top: 16px;
+}
+.accordion-button {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background: transparent;
+    padding-top: 0px;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/accordian-icon.svg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+.accordion-button::after {
+    content: "";
+    background-image: url(../images/accordian-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dropdown-divider {
+    height: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #C7C7C7;
+    opacity: 1;
+    margin: 32px 0px;
+}
+.contactusmain{
+    background: url(../images/Contact-main-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.contactus-faqs {
+    padding-top: 0px;
+    margin-bottom: -8px;
+}
+.contact-right{
+    background: url(../images/contact-info.png) no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    text-align: center;
+    padding: 50px 55px;
+    border-radius: 20px;
+    border: 1px solid var(--Grey-97, #F7F7F8);
+    background-color: var(--Primary---Dark, #034833);
+}
+.accordion-body {
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.accordion-body p{
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+.contactusfgqs-title{
+    padding: 72px 0px 60px;
+    text-align: center;
+}
+.contactusfgqs-title h1{
+    color: var(--Grey-15, #262626);
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.contactusfgqs-title p{
+    color: var(--Primary---Light, #18B979);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.contact-right-img{
+    padding: 31px 0px;
+}
+.contactus-left{
+    border-radius: 10px;
+    border: 1px solid var(--Grey-90, #E4E4E7);
+    background: var(--Grey-100, #FFF);
+    padding: 50px 50px;
+    width: 680px;
+    max-width: 100%;
+    margin:auto;
+}
+.contact-right-content h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+    text-transform: uppercase;
+}
+.contact-right-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+
+.contactusfgqs-title p svg{
+    margin-right: 10px;
+}
+.contactus-hero{
+    height: 604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-box-three .quick{
+    border-radius: 64px;
+    border: 1px solid var(--Peach-90, #EBE7E0);
+    background: #FFF;
+    padding: 12px 16px;
+}
+.col-box-three p{
+    color: var(--Grey-20, #333);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+.col-box-three .quick svg{
+    margin-right: 10px;
+}
+
+.contact-right-add p, .contact-right-add h6{   
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+.contact-right-add strong{
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+.contactus-left .form-control{
+    border-radius: 8px;
+    border: 1px solid var(--Grey-95, #F1F1F3);
+    background: var(--Grey-97, #F7F7F8);
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.contactus-left textarea{
+    border-radius: 8px;
+    border: 1px solid var(--Grey-95, #F1F1F3);
+    background: var(--Grey-97, #F7F7F8);
+    padding: 16px;
+    width: 100%;
+    height: 140px;
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+.form-check label{
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding-left: 16px;
+}
+.form-check label a{
+    color: var(--Primary---Light, #18B979);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-decoration: none;
+}
+.contactus-left .form-check-input{
+    width: 24px;
+    height: 24px;
+}
+.form-check-input:checked{
+    background-color: #18B979;
+    border: 0px;
+}
+.contactus-left .btn{
+    margin-top: 16px;
+}
 
 /* footer */
+.row-img{
+    width: 1130px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.row-img h3{
+    color: var(--Primary---Light, #18B979);
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 50px 0px;
+    margin-bottom: 0px;
+}
+.row-img p{
+    color: var(--Grey-40, #656567);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+}
+.row-img .btn{
+    width: 142px;
+    margin: auto;
+}
+.error-main{
+    padding-bottom: 79px;
+}
+
 .footertop-title h3{
     color: var(--Grey-100, #FFF); 
     font-family: "Bebas Neue";
