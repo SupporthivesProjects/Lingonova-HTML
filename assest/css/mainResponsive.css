@@ -134,6 +134,34 @@
         line-height: 158%; /* 25.28px */
         text-transform: capitalize;
     }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: cover;
+        background-position:unset;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 29px;
+        padding-top: 31px;
+        padding-right: 20px;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 26px;
+        padding-top: 51px;
+        margin-top: 24px;
+    }
     .footertop-title h3 {
         color: var(--Grey-100, #FFF);
         font-family: "Bebas Neue";
@@ -206,6 +234,28 @@
         text-transform: uppercase;
         margin-bottom: 0px;
     }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: cover;
+        background-position:unset;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 29px;
+        padding-top: 31px;
+        padding-right: 0px;
+    }
+    
     
 }
 @media only screen and (min-width: 1000px) and (max-width:1090px) {
@@ -241,6 +291,30 @@
         font-weight: 400;
         line-height: 100%;
         text-transform: uppercase;
+    }
+    .everypageing {
+        padding: 0px 20px;
+    }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: cover;
+        background-position:unset;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 29px;
+        padding-top: 31px;
+        padding-right: 20px;
     }
     
 }
@@ -278,9 +352,29 @@
         line-height: 100%;
         text-transform: uppercase;
     }
+    .everypageing {
+        padding: 0px 30px;
+    }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: cover;
+        background-position:unset;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
+    }
     
 }
 @media only screen and (min-width: 1200px) and (max-width:1290px) {
+    .everypageing {
+        padding: 0px 30px;
+    }
     .container-color-box {
         display: block !important;
         width: 1256px;
@@ -302,8 +396,25 @@
         line-height: 100%;
         text-transform: uppercase;
     }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: 100%;
+        background-position: bottom center;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
+    }
 }
 @media only screen and (min-width: 1300px) and (max-width:1390px) {
+    .everypageing {
+        padding: 0px 30px;
+    }
     .container-color-box {
         display: block !important;
         width: 1256px;
@@ -315,6 +426,20 @@
         padding-left: 0px;
         border-radius: 100px;
         border-width: 1px;
+    }
+    .we-are-img {
+        background: url(../images/we-are-bg.png) no-repeat;
+        background-size: 100%;
+        background-position: bottom center;
+        height: 363px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 439px;
+        max-width: 100%;
+        margin-left: 37px;
+        padding-top: 57px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -456,6 +581,102 @@
     
 }
 @media screen and (max-width: 600px) { 
+.every-bg-img {
+    background-size: cover;
+    background-position: center center;
+    padding: 24px 0px;
+    border-radius: 0px;
+    background: var(--Primary---Dark, #034833);
+}
+.everypageing {
+    padding: 0px 0px;
+}
+.divimg .btn-green{
+    display: flex;
+    padding: 8px 13px;
+}
+.every-bg-img .owl-item {
+    width: 328px !important;
+    height: 336px !important;
+    transition: 1s;
+}
+.divimg {
+    position: relative;
+    width: 328px;
+    max-width: 100%;
+}
+.owl-carousel img {
+    width: 328px !important;
+    height: 335px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: auto;
+    object-fit: cover;
+}
+.col-slider{
+    padding: 0px 9px;
+}
+.btn-wrap {
+    display: none;
+}
+.col-slider .btn-wrap {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 24px !important;
+}
+.img-content {
+    width: 300px;
+}
+.imgsapn {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 61px;
+    background: var(--Grey-100, #FFF);
+    margin-left: 8px;
+}
+.col-border-ervey {
+    border-bottom: 0px solid rgba(179, 179, 179, 0.30);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 24px;
+}
+.everypage-right .btn {
+    width: 97%;
+    max-width: 100%;
+    float: none;
+    margin: auto;
+}
+.every-page-content h1 {
+    color: var(--Grey-100, #FFF);
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 83px;
+}
+.every-page-content {
+    width: 415px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.every-bg-img .owl-item:hover {
+    width: 328px !important;
+}
+.item:hover .img-content {
+    bottom: 10px;
+    height: 157px;
+    padding: 24px 14px;
+}
  .home-lasts{
     padding: 24px 10px;
  }
