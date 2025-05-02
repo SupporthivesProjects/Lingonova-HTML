@@ -54,7 +54,47 @@
   line-height: 150%;
   margin: 0px;
 }
-
+.modal_outline{
+  border-radius: 20px;
+}
+.modal_body{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+}
+.cart_modalbtnbar{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.modaltitlebar{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.modaltitle{
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.modalsubtitle{
+  color: var(--Grey-40, #656567);
+  text-align: center;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0px;
+}
 .tr_s2 {
   padding: 64px 0px;
 }
@@ -736,6 +776,17 @@
   background-size: cover;
   padding: 190px 0px 96px 0px;
 }
+/* Supported Languages Start */
+.sl_s1{
+  padding: 0px;
+}
+.sl_s1left{
+  background-image: url(../images/sl_s1left.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Supported Languages End */
 
 
 
@@ -774,6 +825,15 @@
   }
   .tr_subtitle{
     font-size: 16px;
+  }
+  .modaltitle{
+    font-size: 28px;
+  }
+  .cart_modalbtnbar{
+    flex-direction: column;
+  }
+  .modal_body{
+    padding: 24px 16px;
   }
   .tr_c2{
     flex-direction: column;
@@ -859,6 +919,9 @@
     background-image: url(../images/order4_mobbg.png);
     padding: 50px 0px 42px 0px;
   }
+  /* Supported Languages Start */
+
+  /* Supported Languages End */
 }
 
 @media only screen and (min-width: 400px) and (max-width:700px) {}
