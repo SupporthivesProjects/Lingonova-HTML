@@ -46,6 +46,7 @@ tooglecart.addEventListener('click',()=>{
     }
 })
 
+// sldier home page
 
 
 AOS.init({

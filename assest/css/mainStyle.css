@@ -195,7 +195,237 @@ html,body{
     background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
     min-width: fit-content;
 }
+/* home */
+.everypageing{
+    padding: 0px 44px;
+}
+.every-bg-img{
+    background: url(../images/erverypagebg.png) #034833 no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 75px 0px;
+    border-radius: 40px;
+}
 
+.every-page-content h6{
+    color: var(--Primary---Light, #18B979);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+.every-page-content h6 svg{
+    margin-right: 10px;
+}
+.everypage-right p{
+    color: var(--Grey-90, #E4E4E7);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.everypage-right .btn{
+    width: 128px;
+    max-width: 100%;
+    float: right;
+}
+.every-page-content {
+    width: 415px;
+    max-width: 100%;
+}
+.everypage-right{
+    width: 477px;
+    max-width: 100%;
+    float: right;
+}
+.every-page-content h1{
+    color: var(--Grey-100, #FFF);
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.div-bg-home{
+    background: url(../images/HomePage-line-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home-lastc-content h2{
+    color: var(--Grey-15, #262626);
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.home-lastc-content p{
+    color: var(--Grey-40, #656567);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.home-lastc-content h6{
+    color: var(--Primary---Light, #18B979);
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin-bottom: 10px;
+}
+.img-content h4{
+    color: var(--Grey-100, #FFF);
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.divimg {
+    position: relative;
+    width: 410px;
+    max-width: 100%;
+}
+.every-bg-img .owl-item{
+    width: 190px !important;
+    height: 420px !important;
+    transition:1s;
+}
+.every-bg-img .owl-item:hover{
+    width: 410px !important;
+}
+.img-content {
+    background: url(../images/Txt-Content.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 28px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -58px;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    width: 390px;
+    margin: auto;
+    overflow: hidden;
+}
+.item:hover .img-content {
+    bottom: 10px;
+    height: 157px;
+}
+
+.home-lastc-content h6 svg{
+    margin-right: 10px;
+}
+.home-lastc-content{
+    width: 645px;
+    max-width: 100%;
+}
+.owl-carousel  img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.item:hover .divimg img {
+        width: 410px !important;
+}
+.col-border-ervey{
+    border-bottom: 1px solid rgba(179, 179, 179, 0.30);
+    margin-bottom: 60px;
+    padding-bottom: 24px;
+}
+.divimg:hover::after{
+    content: "";
+    background: url(../images/activeslide-img.svg) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+
+}
+.divimg1::after{
+    content: "";
+    background: url(../images/slider-icon1.svg) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.divimg2::after{
+    content: "";
+    background: url(../images/slider-icon2.svg) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.divimg3::after{
+    content: "";
+    background: url(../images/slider-icon3.svg) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.divimg4::after{
+    content: "";
+    background: url(../images/slider-icon4.png) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.divimg5::after{
+    content: "";
+    background: url(../images/slider-icon5.svg) no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+.home-lastc-content .btn{
+    width: 244px;
+    max-width: 100%;
+}
 .contactus-hero-content h1{
     color: var(--Grey-100, #FFF);
     text-align: center;
@@ -288,6 +518,7 @@ html,body{
     padding-top: 0px;
     margin-bottom: -8px;
 }
+
 .contact-right{
     background: url(../images/contact-info.png) no-repeat;
     background-size: 100%;
@@ -511,7 +742,20 @@ html,body{
 .error-main{
     padding-bottom: 79px;
 }
-
+.error-main{
+    background: url(../images/Contact-main-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.legalmain{
+    background: url(../images/Contact-main-bg.png) lightgray no-repeat !important;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
 .footertop-title h3{
     color: var(--Grey-100, #FFF); 
     font-family: "Bebas Neue";

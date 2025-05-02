@@ -455,6 +455,34 @@
     }
     
 }
+@media screen and (max-width: 600px) { 
+ .home-lasts{
+    padding: 24px 10px;
+ }
+.home-lastc-content{
+   margin-top: 24px;
+}
+ .home-lastc-content h2 {
+    color: var(--Grey-15, #262626);
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+ }
+ .home-lastc-content h6 {
+    color: var(--Primary---Light, #18B979);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+}
 @media screen and (max-width: 600px) {
     .contactus-hero-content h1 {
         color: var(--Grey-100, #FFF);
