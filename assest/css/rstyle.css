@@ -1512,6 +1512,9 @@
     align-items: center;
     text-align: center;
   }
+  .abt_s1contentbar{
+    margin-top: -6px;
+  }
   .abt_c3{
     flex-direction: column;
     padding: 24px 10px;
@@ -1551,6 +1554,17 @@
   }
   .card2_s5{
     margin: 0px;
+  }
+  .abt_c6{
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 24px;
+  }
+  .abt_s6title{
+    font-size: 28px;
+  }
+  .abt_s6contentbar{
+    padding: 0px 24px;
   }
   /* About End */
 }
