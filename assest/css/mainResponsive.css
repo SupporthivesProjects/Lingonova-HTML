@@ -3,6 +3,12 @@
         overflow-x: hidden;
         width: 100%;
     }
+    .container-color-box {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    
     .d-mobile-show{
         display: block;
     }
@@ -20,6 +26,13 @@
     }
     .navbar-toggler:focus{
         box-shadow: none;
+    }
+    .toggle-menu-box{
+        display: flex;
+        padding: 2px 31px;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
     }
     .container-color-box{
         display: block !important;
@@ -52,6 +65,10 @@
         display: flex;
         width: 100%;
     }
+    
+    .container-color-box {
+        height: auto;
+    }
     .col-color-mo{
         padding-top: 24px;
     }
@@ -73,6 +90,17 @@
     .navbar-nav .dropdown-menu {
         position: static;
         border: 0px;
+    }
+    .carddrop-menu .dropdown-menu {
+        position: absolute;
+        border: 0px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        min-width: 464px;
+        /* margin: auto; */
+        margin-left: -21px;
+        margin-top: 56px;
     }
     .activeitem{
         background: var(--Field-BG, #F1FAF1);
@@ -134,6 +162,7 @@
         line-height: 158%; /* 25.28px */
         text-transform: capitalize;
     }
+       
     .we-are-img {
         background: url(../images/we-are-bg.png) no-repeat;
         background-size: cover;
@@ -156,7 +185,7 @@
         padding-right: 20px;
     }
     .we-are-img-content {
-        width: 439px;
+        width: 464px;
         max-width: 100%;
         margin-left: 26px;
         padding-top: 51px;
@@ -198,8 +227,155 @@
     .footer-middle {
         padding: 40px 0px;
     }
+    .stepcartmain .card-one::before {
+        content: " ";
+        background: url(../images/chevron-double-left-one.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    .stepcartmain .card-two::before {
+        content: " ";
+        background: url(../images/chevron-double-left.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    .stepcartmain .card-three::before {
+        content: " ";
+        background: url(../images/chevron-double-right.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 5px;
+        margin-top: 24px;
+    }
+    .selectlanguage-content {
+        margin-bottom: 30px;
+    }
+    .home-video-content {
+        width: 450px;
+        max-width: 100%;
+        margin-left: 10px;
+        padding: 43px 0px;
+        text-align: center;
+        margin: auto;
+    }   
+    .toggle-menu-box{
+        display: flex;
+        padding: 2px 31px;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .home-video-content h1 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 82px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    .home-banner-hero {
+        padding: 0px 0px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .translate-middle-bg {
+        background: url(../images/translation-Services.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: auto;
+    }
+    .tranlation-card .card {
+        margin-bottom: 30px;
+    }
+    .card-mb{
+        margin-bottom: 0px !important;
+    }
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+        right: 0px;
+        height: 530px;
+        width: 972px;
+        z-index: -1;
+        bottom: 0px;
+    }
+    
+    
 }
 @media only screen and (min-width: 890px) and (max-width:999px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 518px;
+        z-index: -1;
+    }
+    .home-video-content {
+        width: 463px;
+        max-width: 100%;
+        margin-left: 10px;
+    }   
+    .toggle-menu-box{
+        display: flex;
+        padding: 2px 31px;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .home-video-content h1 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 82px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    header{
+        background: var(--Grey-97, #F7F7F8) !important;
+        height: unset;
+    }
+    .container-color-box{
+        margin-top: 0px;
+        height: unset;
+        background: var(--Grey-97, #F7F7F8);
+        box-shadow: none;
+    }
     .nav-link {
         text-align: center;
         font-family: Lexend;
@@ -255,10 +431,82 @@
         padding-top: 31px;
         padding-right: 0px;
     }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 27px 0px;
+        border-radius: 0px;
+        height: 252px;
+    }
+    .stepcartmain p {
+        color: var(--800, #727272);
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Lexend';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .how-its-workscontent h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 4px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 10px;
+    }
+    .give-will-be-content .btn-wrap {
+        margin-top: 24px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 19px;
+        right: -28px;
+        gap: 7px;
+        width: 220px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 42px;
+        height: 42px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
     
     
 }
 @media only screen and (min-width: 1000px) and (max-width:1090px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 552px;
+        z-index: -1;
+    }
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 10px;
+    }    
     .nav-link {
         text-align: center;
         font-family: Lexend;
@@ -316,9 +564,81 @@
         padding-top: 31px;
         padding-right: 20px;
     }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 27px 0px;
+        border-radius: 0px;
+        height: 252px;
+    }
+    .stepcartmain p {
+        color: var(--800, #727272);
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Lexend';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .how-its-workscontent h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 4px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 10px;
+    }
+    .give-will-be-content .btn-wrap {
+        margin-top: 24px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 19px;
+        right: -28px;
+        gap: 7px;
+        width: 220px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 42px;
+        height: 42px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
     
 }
 @media only screen and (min-width: 1100px) and (max-width:1190px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 588px;
+        z-index: -1;
+    }    
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 30px;
+    }    
     .nav-link {
         text-align: center;
         font-family: Lexend;
@@ -369,9 +689,82 @@
         margin-left: 37px;
         padding-top: 57px;
     }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 32px 0px;
+        border-radius: 0px;
+        height: 240px;
+    }
+    .stepcartmain p {
+        color: var(--800, #727272);
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Lexend';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .how-its-workscontent h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 4px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 10px;
+    }
+    .give-will-be-content .btn-wrap {
+        margin-top: 24px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 24px;
+        right: -28px;
+        gap: 16px;
+        width: 234px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 50px;
+        height: 50px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
     
 }
 @media only screen and (min-width: 1200px) and (max-width:1290px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 652px;
+        z-index: -1;
+    }
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 40px;
+    }
+    
     .everypageing {
         padding: 0px 30px;
     }
@@ -410,8 +803,73 @@
         margin-left: 37px;
         padding-top: 57px;
     }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 32px 0px;
+        border-radius: 0px;
+        height: 240px;
+    }
+    .stepcartmain p {
+        color: var(--800, #727272);
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Lexend';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .how-its-workscontent h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 4px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 33px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 27px;
+        right: -13px;
+        gap: 16px;
+        width: 234px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 50px;
+        height: 50px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
+
 }
 @media only screen and (min-width: 1300px) and (max-width:1390px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 692px;
+        z-index: -1;
+    }
     .everypageing {
         padding: 0px 30px;
     }
@@ -441,11 +899,201 @@
         margin-left: 37px;
         padding-top: 57px;
     }
+    .stepcartmain .card {
+        padding: 0px 44px 0px;
+        
+    }
+    .give-will-be-content {
+        padding: 0px 0px 0px 4px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 33px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 27px;
+        right: -13px;
+        gap: 16px;
+        width: 234px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 50px;
+        height: 50px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 61px;
+    }
+
+}
+@media only screen and (min-width: 1400px) and (max-width:1490px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 731px;
+        z-index: -1;
+    }
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 119px;
+    }
+    .green-box-content {
+        display: flex;
+        position: absolute;
+        top: 27px;
+        right: -13px;
+        gap: 16px;
+        width: 255px;
+        padding: 0px 11px;
+    }
+    .green-box-content img {
+        width: 50px;
+        height: 50px;
+    }
+    .green-box-content p {
+        color: var(--White, #FFF);
+        font-family: Lexend;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width:1590px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 776px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width:1690px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 813px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width:1790px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 850px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 1800px) and (max-width:1890px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 912px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 2100px) and (max-width:2190px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 1200px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 2200px) and (max-width:2290px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 900px;
+        width: 1300px;
+        z-index: -1;
+    }
+}
+@media only screen and (min-width: 2800px) and (max-width:2290px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        right: 0px;
+        height: 939px;
+        z-index: -1;
+        width: 1452px;
+    }
+    .home-hero-video {
+        position: relative;
+        width: 1460px;
+        max-width: 100%;
+        height: 900px;
+    }
 }
 @media screen and (max-width: 600px) {
+    .home-banner-hero::after {
+        content: "";
+        position: absolute;
+        background: url(../images/home-right-img-mo.png) no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+        right: 0px;
+        height: 454px;
+        width: 375px;
+        z-index: -1;
+        bottom: 55px;
+    } 
     html,body{
         overflow-x: hidden;
         width: 100%;
+    }
+    .fixed-top{
+        background: var(--Grey-97, #F7F7F8);    
     }
     .d-mobile-show{
         display: block;
@@ -469,14 +1117,15 @@
         display: block !important;
         width: 375px;
         border-radius: 0%;
-        height: 69px;
+        height: unset;
         padding: 16px 24px;
         flex-wrap: unset !important;
         justify-content: space-between;
         align-items: center !important;
-        border-bottom: 1px solid var(--Grey-90, #E4E4E7);
-        background: var(--Grey-97, #F7F7F8);
-        box-shadow: 0px 2.713px 14.9px 0px rgba(0, 0, 0, 0.08);
+        /* border-bottom: 0px solid var(--Grey-90, #E4E4E7); */
+        background:transparent;
+        box-shadow: none;
+        margin-top: 0px;
     }
     .nav-link {
         color: var(--Grey-35, #59595A);
@@ -497,7 +1146,7 @@
         width: 50%;
     }
     .col-color-mo{
-        padding-top: 24px;
+        padding-top: 0px;
     }
     .col-color-mo .row{
         background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
@@ -578,9 +1227,471 @@
         line-height: 158%; /* 25.28px */
         text-transform: capitalize;
     }
+    .dropdown-menu.show {
+        margin-top: 0px; 
+    }
+    .carddrop-menu .dropdown-menu {
+        position: absolute;
+        border: 0px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        min-width: 364px;
+        /* margin: auto; */
+        margin-left: -21px;
+        margin-top: 56px;
+    }
+    .cart-show {
+        width: 360px;
+        padding: 19px;
+        max-height: 300px;
+        overflow: scroll;
+    }
+    
     
 }
+
 @media screen and (max-width: 600px) { 
+    .p-mo{
+        padding: 0px;
+    }
+    .home-banner-hero {
+        padding: 0px 0px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-banner-hero video{
+        padding: 0px 0px;
+        height: 312px;
+    }
+    .home-video-content {
+        width: 493px;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .home-video-content h1 {
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: "Bebas Neue";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 60px */
+        text-transform: uppercase;
+    }
+    .home-video-content h1 span{
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+    .home-hero-video {
+        position: relative;
+        width: 960px;
+        max-width: 100%;
+        height: 321px;
+        margin-top: 77px;
+    }
+    .home-video-content p {
+        color: var(--Grey-40, #656567);
+        font-family: Lexend;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        margin-bottom: 16px;
+        text-align: center;
+        padding: 0px;
+    }
+    .home-video-content .btn-green-img {
+        margin-top: 16px;
+    }
+    .home-video-content{
+        padding:  10px 24px 24px;
+        text-align: center;
+        height: 500px;
+    }
+    .translate-middle-bg {
+        padding-top:0px;
+        background-size: cover;
+        background-position: center center;
+        height: unset;
+        background: var(--Primary---Dark, #034833);
+        padding-bottom: 24px;
+    }
+    .translationthtal-row h2 {
+        color: var(--Grey-100, #FFF);
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        width: 238px;
+        margin-bottom: 0px;
+        max-width: 100%;
+        text-align: center;
+        padding: 0px 22px;
+        margin: auto;
+    }
+    .translationthtal-row h6 {
+        color: var(--Primary---Light, #18B979);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+    .translationthtal-row {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 12px;
+        border-bottom: 0px solid rgba(179, 179, 179, 0.30);
+        padding-bottom: 40px;
+        text-align: center;
+    }  
+    .tranlation-card {
+        margin-top: 0px;
+    }
+    .tranlation-card .card {
+        border-radius: 10px;
+        /* background-blend-mode: normal, screen, normal; */
+        background: url(../images/Service-Block.png) rgba(202, 255, 51, 0.00);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 16px 24px;
+        border: 0px;
+        border-radius: 10px;
+        width: 319px;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .card-mb{
+        margin-bottom: 0px !important;
+    }
+    .translation-card-content h5 {
+        color: var(--Grey-100, #FFF);
+        font-family: "Bebas Neue";
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        margin-top: 16px;
+    }
+    .translation-card-content p {
+        color: var(--Grey-90, #E4E4E7);
+        font-family: Lexend;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        margin-bottom: 16px;
+    }         
+    .will-give-your{
+        padding: 24px 0px;
+    }
+    .give-will-be-content {
+        padding: 16px 12px 0px 11px;
+    }
+    .give-will-be-content h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        position: relative;
+        width: 439px;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+    .give-will-be-content h2 svg {
+        margin-top: -31px;
+        margin-left: -9px;
+        width: 20px;
+        height: 20px;
+    }
+    .green-box-content {
+        display: flex;
+        position: relative;
+        top: 12px;
+        right: 0px;
+        gap: 16px;
+        width: 270px;
+        padding: 20px 11px;
+        background: #18B979;
+        border-radius: 20px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    .give-will-be-content p {
+        color: var(--Grey-40, #656567);
+        font-family: Lexend;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+    }
+    .give-will-be-content h6 {
+        color: var(--Primary---Light, #18B979);
+        font-family: Lexend;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+    .give-will-be-content .btn-wrap {
+        gap: 40px;
+        margin-top: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: anchor-center;
+    }   
+    .give-mail {
+        display: flex;
+        gap: 17px;
+    } 
+    .give-will-be-content .btn-wrap {
+        gap: 24px;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: anchor-center;
+    }
+    .Want-To svg {
+        position: absolute;
+        right: -22px;
+        bottom: 12px;
+        width: 18px;
+        height: 25px;
+    }
+    .give-will-be-content h6 {
+        color: #18B979;
+        font-family: Lexend;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+    .give-will-be-content .Want-To h6 {
+        color: #034833;
+        font-family: Lexend;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 24px 0px;
+        border-radius: 0px;
+        height: 249px;
+    }
+    .how-its-workscontent h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0px 59px;
+    }
+    
+    .how-its-workscontent h6 {
+        color: var(--Primary---Light, #18B979);
+        font-family: Lexend;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .how-its-workscontent .btn-green{
+        width: 240px;
+        margin: auto;
+        max-width: 100%;
+    }
+    .how-its-workscontent {
+        align-items: center;
+        margin-bottom: 22px;
+    }
+    .stepcartmain {
+        margin-top: 42px;
+        padding: 0px 14px;
+    }
+    .stepcartmain h3 {
+        color: #262626;
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+    }
+    .stepcartmain p {
+        color: var(--800, #727272);
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Lexend';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    .stepcartmain .card {
+        position: relative;
+        background: transparent;
+        padding: 0px 15px 0px;
+        border-radius: 0px;
+        height: 249px;
+    }
+    .stepcartmain h6 {
+        margin-left: -15px;
+    }
+    .how-its-works{
+        padding: 24px 0px;
+    }
+    .stepcartmain .card-one::before {
+        content: " ";
+        background: url(../images/chevron-double-left-one.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    
+    .stepcartmain .card-two::before {
+        content: " ";
+        background: url(../images/chevron-double-left.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    .stepcartmain .card-three::before {
+        content: " ";
+        background: url(../images/chevron-double-right.svg) #fff no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: absolute;
+        left: unset;
+        top: -23px;
+        width: 39px;
+        height: 39px;
+        z-index: 1;
+        right: 0px;
+    }
+    .stepcartmain .card::after {
+        display: none;
+    }
+    
+    .selectlanguage-content {
+        display: flex;
+        width: 850px;
+        height: unset;
+        padding: 24px 13px;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        max-width: 100%;
+        border-radius: 20px;
+        border: 0px solid var(--Grey-90, #E4E4E7);
+        background: transparent;
+        margin-top: 0px;
+    }
+    .we-are-polglost {
+        padding-top: 0px;
+        padding-bottom: 24px;
+    }    
+    .selectlanguage-content ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 41px;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .we-are-img {
+        background: url(../images/we-are-mo.png) no-repeat;
+        background-size: cover;
+        background-position:center center;
+        height: 540px;
+        width: 850px;
+        max-width: 100%;
+    }
+    .we-are-img-content {
+        width: 422px;
+        max-width: 100%;
+        margin-left: 10px;
+        padding-top: 238px;
+    }
+    .we-are-img-content h2 {
+        color: var(--Grey-15, #262626);
+        font-family: "Bebas Neue";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .we-are-img-content {
+        width: 422px;
+        max-width: 100%;
+        margin-left: 0px;
+        padding-top: 238px;
+        text-align: center;
+    }
+    .we-are-img-content .btn {
+        width: 297px;
+        max-width: 100%;
+        margin: auto;
+    }
+    .we-are-img-content p {
+        color: var(--800, #727272);
+        /* font-feature-settings: 'liga' off, 'clig' off; */
+        font-family: "Lexend";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
 .every-bg-img {
     background-size: cover;
     background-position: center center;
