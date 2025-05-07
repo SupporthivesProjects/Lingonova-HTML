@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingonova</title>
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assest/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assest/css/owl.theme.default.css">
+    <link rel="stylesheet" href="./assest/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assest/css/aos.css">
+    <link rel="stylesheet" href="./assest/css/mainStyle.css">
+    <link rel="stylesheet" href="./assest/css/mainResponsive.css">
+    <style>
+        header{
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container container-color-box">
+                <div class="header-mobi">
+                    <div class="d-lg-none d-md-block d-block w-100 header-mobile-border">
+                        <div class="d-mobile-show d-block d-lg-none d-md-block">
+                            <div class="toggle-menu-box">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle shipping-cart" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="./assest/images/shopping-cart.svg" alt="" srcset="">
+                                         </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Certified Translation</a></li>
+                                        <li><a class="dropdown-item" href="#">Standard Translation</a></li>
+                                        <li><a class="dropdown-item" href="#">Supported Documents</a></li>
+                                        <li><a class="dropdown-item" href="#">Supported Languages</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a class="navbar-brand m-auto" href="#">
+                                    <img src="./assest/images/logo.svg" alt="" class="img-fluid brandlogo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <img src="./assest/images/Menu-Button.svg" alt="" srcset="" class="img-fluid tooglemenuimg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-color-mo">
+                        <div class="row">
+                            <div class="col-lg-5 col-12 col-md-5 col col-sm-12">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  col-left-box">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Services
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Certified Translation</a></li>
+                                                <li class="activeitem"><a class="dropdown-item" href="#">Standard Translation</a></li>
+                                                <li><a class="dropdown-item" href="#">Supported Documents</a></li>
+                                                <li><a class="dropdown-item" href="#">Supported Languages</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Join the team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Support</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col col-md-2 text-center col-border d-lg-block d-md-none d-none">
+                                <div>
+                                    <a class="navbar-brand" href="#">
+                                        <img src="./assest/images/logo.svg" alt="" class="img-fluid brandlogo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5  col-12 col col-md-5 col-sm-12">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 col-right-box">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                GBP
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">USD $</a></li>
+                                                <li class="activeitem"><a class="dropdown-item" href="#">USD $</a></li>
+                                                <li><a class="dropdown-item" href="#">USD $</a></li>
+                                                <li><a class="dropdown-item" href="#">USD $</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown cartmo">
+                                            <a class="nav-link dropdown-toggle shipping-cart" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                               <img src="./assest/images/shopping-cart.svg" alt="" srcset="">
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                            
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link btn btn-black" href="#">Login / Sign Up</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link btn btn-green" href="">Translate Here</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contactusmain">
+        <section class="contactus-hero">
+            <img src="./assest/images/contacthero.png" alt="" class="img-fluid bg-image d-none d-lg-block d-md-block">
+            <img src="./assest/images/contacthero-mo.png" alt="" class="img-fluid bg-image d-block d-lg-none d-md-none">
+            <div class="container">
+                <div class="col">
+                    <div class="contactus-hero-content">
+                        <h1>We’d love to here from you</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur. Sit interdum proin etiam tellus. Amet tempus.</p>
+                        <div class="col-box-three">
+                            <div class="quick oneq">
+                                <p> <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 0.25C5.11522 0.25 0.75 4.61522 0.75 10C0.75 15.3848 5.11522 19.75 10.5 19.75C15.8848 19.75 20.25 15.3848 20.25 10C20.25 4.61522 15.8848 0.25 10.5 0.25ZM11.25 4C11.25 3.58579 10.9142 3.25 10.5 3.25C10.0858 3.25 9.75 3.58579 9.75 4V10C9.75 10.4142 10.0858 10.75 10.5 10.75H15C15.4142 10.75 15.75 10.4142 15.75 10C15.75 9.58579 15.4142 9.25 15 9.25H11.25V4Z" fill="#18B979"/>
+                                    </svg>
+                                     Quick Assistance</p>
+                            </div>
+                            <div class="quick twoq">
+                                <p>
+                                    <svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.1152 0.594952C12.4165 0.762894 12.5643 1.11463 12.4736 1.44736L10.482 8.75003H17.75C18.0487 8.75003 18.3189 8.92721 18.4379 9.20111C18.5569 9.47502 18.5021 9.79344 18.2983 10.0118L7.79831 21.2618C7.56298 21.5139 7.18604 21.573 6.88481 21.4051C6.58357 21.2372 6.4357 20.8854 6.52644 20.5527L8.51808 13.25H1.25002C0.951369 13.25 0.681182 13.0728 0.562156 12.7989C0.44313 12.525 0.497952 12.2066 0.701725 11.9883L11.2017 0.738287C11.437 0.486154 11.814 0.427009 12.1152 0.594952Z" fill="#18B979"/>
+                                    </svg>                                    
+                                    Quick Change Resolutions
+                                </p>
+                            </div>
+                            <div class="quick threeq">
+                                <p><svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 3.5C7.83486 3.5 8.12915 3.72198 8.22114 4.04396L9.03434 6.89015C9.39028 8.13593 10.3641 9.10972 11.6099 9.46566L14.456 10.2789C14.778 10.3709 15 10.6651 15 11C15 11.3349 14.778 11.6291 14.456 11.7211L11.6098 12.5343C10.3641 12.8903 9.39028 13.8641 9.03434 15.1099L8.22114 17.956C8.12915 18.278 7.83486 18.5 7.5 18.5C7.16514 18.5 6.87085 18.278 6.77886 17.956L5.96566 15.1099C5.60972 13.8641 4.63593 12.8903 3.39015 12.5343L0.543959 11.7211C0.221983 11.6291 0 11.3349 0 11C0 10.6651 0.221983 10.3709 0.543959 10.2789L3.39015 9.46566C4.63593 9.10972 5.60972 8.13593 5.96566 6.89015L6.77886 4.04396C6.87085 3.72198 7.16514 3.5 7.5 3.5Z" fill="#18B979"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 0.5C16.8442 0.5 17.1441 0.734223 17.2276 1.0681L17.4865 2.10356C17.7216 3.04406 18.4559 3.7784 19.3964 4.01353L20.4319 4.27239C20.7658 4.35586 21 4.65585 21 5C21 5.34415 20.7658 5.64414 20.4319 5.72761L19.3964 5.98647C18.4559 6.2216 17.7216 6.95594 17.4865 7.89644L17.2276 8.9319C17.1441 9.26578 16.8442 9.5 16.5 9.5C16.1558 9.5 15.8559 9.26578 15.7724 8.9319L15.5135 7.89644C15.2784 6.95594 14.5441 6.2216 13.6036 5.98647L12.5681 5.72761C12.2342 5.64414 12 5.34415 12 5C12 4.65585 12.2342 4.35586 12.5681 4.27239L13.6036 4.01353C14.5441 3.7784 15.2784 3.04406 15.5135 2.10356L15.7724 1.0681C15.8559 0.734223 16.1558 0.5 16.5 0.5Z" fill="#18B979"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 14C15.3228 14 15.6094 14.2066 15.7115 14.5128L16.1058 15.6956C16.2551 16.1435 16.6065 16.4949 17.0544 16.6442L18.2372 17.0385C18.5434 17.1406 18.75 17.4272 18.75 17.75C18.75 18.0728 18.5434 18.3594 18.2372 18.4615L17.0544 18.8558C16.6065 19.0051 16.2551 19.3565 16.1058 19.8044L15.7115 20.9872C15.6094 21.2934 15.3228 21.5 15 21.5C14.6772 21.5 14.3906 21.2934 14.2885 20.9872L13.8942 19.8044C13.7449 19.3565 13.3935 19.0051 12.9456 18.8558L11.7628 18.4615C11.4566 18.3594 11.25 18.0728 11.25 17.75C11.25 17.4272 11.4566 17.1406 11.7628 17.0385L12.9456 16.6442C13.3935 16.4949 13.7449 16.1435 13.8942 15.6956L14.2885 14.5128C14.3906 14.2066 14.6772 14 15 14Z" fill="#18B979"/>
+                                    </svg>
+                                    
+                                    Real Human Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactform">
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                            <form action="">
+                                <div class="contactus-left">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Email Address">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                    <div class="col">
+                                        <textarea placeholder="Your Message here..."></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    I Agree To The <a href="">Terms &
+                                                        Conditions</a> and <a href="">Privacy Policy.</a>
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                                            <img src="./assest/images/reCAPTCHA.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-green w-100">Submit Your Query</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-5 col-md-12 col-sm-12 col-12 p-0">
+                            <div class="contact-right">
+                                <div class="contact-right-content">
+                                    <h1>
+                                        Say Hello!
+                                    </h1>
+                                    <p>Nam ultricies metus purus laoreet aliquam.
+                                        Aliquam lectus urna, tempus ac lectus et.</p>
+                                </div>
+                                <div class="contact-right-img">
+                                    <img src="./assest/images/ladycallimg.png" alt="" class="img-fluid d-none d-lg-block d-md-block">
+                                    <img src="./assest/images/Left-Img-Block.png" alt="" class="img-fluid d-block d-lg-none d-md-none">
+                                </div>
+                                <div class="contact-right-add">
+                                    <h6>Support@lingonova.co</h6>
+                                    <p>
+                                        <strong>COMPANY NAME LTD, </strong>
+                                        123 Placeholder Street, BUILDING NAME, 6th Floor, Flat/Office 601 0000, City Name, Country
+                                    </p>
+                                    <p>123-00-0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactus-faqs">
+            <div class="contactusfgqs-title">
+                <p> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="9" viewBox="0 0 23 9" fill="none">
+                    <line y1="4.86914" x2="19" y2="4.86914" stroke="#18B979" stroke-width="2"/>
+                    <circle cx="20.5" cy="4.86914" r="2.5" fill="#034833"/>
+                  </svg> Frequently Asked Questions</p>
+                <h1>Answers to what we get asked the most</h1>
+            </div>
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <div class="accordiancontact">
+                            <div class="accordion" id="accordionExample">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 col-12 col-md-12">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                1. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                               2. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                3. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingFour">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                4. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 col-12 col-md-12">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingFive">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFive" aria-expanded="true" aria-controls="collapseFive">
+                                               5. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                  </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSix">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                               6. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSeven">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                               7. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingEight">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                               8. Lorem ipsum dolor sit amet consectetur. 
+                                              </button>
+                                            </h2>
+                                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur. Urna consectetur sodales nec suspendisse suspendisse facilisi. In arcu sit elementum venenatis fermentum id pellentesque fermentum. Quam quam.
+                                                  </div>  
+                                            </div>
+                                          </div>
+                                          <hr class="dropdown-divider">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bd-footer">
+        <img src="./assest/images/Module.png" class="img-fluid bg-image d-lg-block d-md-block d-none">
+        <img src="./assest/images/footer-mo.png" class="img-fluid bg-image d-lg-none d-md-none d-block">
+        <div class="col-border">
+            <div class="container">
+                <div class="col footertop-title">
+                    <div class="row">
+                        <div class="col-lg-8 col-12 col-sm-12 col-md-12">
+                            <h3>Ready to Translate Your Next Document?</h3>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-12 col-md-12">
+                            <a href="#" class="btn btn-green btn-green-img">Begin your translation 
+                                <span class="imgsapn">
+                                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.83398 14.6673L14.1673 6.33398" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.83398 6.33398H14.1673V14.6673" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>      
+                                </span> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-border footer-middle">
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12 col-12  col-mo footer-logo">
+                          <a class="d-inline-flex align-items-center text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                            <img src="./assest/images/footer-logo.svg" class="img-fluid">
+                          </a>
+                         <div>
+                            <img src="./assest/images/yourgiftcardshop 1.png" class="img-fluid masrterimg">
+                         </div>
+                          <div class="list-unstyled small-img">
+                                <img src="./assest/images/white.svg" class="img-fluid">
+                                <img src="./assest/images/Instagram.svg" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-6 col-lg-3 col-md-12 col-12 footer-title">
+                            <h5>Our Solutions</h5>
+                            <ul class="list-unstyled-main">
+                              <li class=""><a href="">Certified translation</a></li>
+                              <li class="seconlist"><a href="">Standard translation </a></li>
+                              <li class=""><a href="">Supported languages</a></li>
+                              <li class=""><a href="">Supported documents</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3 col-md-12 col-12 footer-title">
+                            <h5>Our Solutions</h5>
+                            <ul class="list-unstyled-main">
+                              <li class=""><a href="">about us</a></li>
+                              <li class=""><a href="">Join the team </a></li>
+                              <li class=""><a href="">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3 col-md-12 col-12 footer-address">
+                          <h5>Our Details</h5>
+                          <ul class="list-unstyled-p">
+                            <p>Support@lingonova.co</p>
+                            <p>
+                                COMPANY NAME LTD, 123 Placeholder Street, BUILDING NAME, 6th Floor, Flat/Office 601 0000, City Name, Country
+                            </p>
+                            <p>
+                                123-00-0000
+                            </p>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-border">
+            <div class="container">
+                <div class="col footerbtm-title">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="col-red-div">
+                                <p>© 2025 Brandflaire.com. All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="footerullid">
+                                <ul>
+                                    <li>
+                                        <a href="#">Terms and Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./assest/js/jquery-3.7.1.min.js"></script>
+<script src="./assest/js/owl.carousel.js"></script>
+<script src="./assest/js/popper.min.js"></script>
+<script src="./assest/js/bootstrap.bundle.min.js"></script>
+<script src="./assest/js/swiper-bundle.min.js"></script>
+<script src="./assest/js/aos.js"></script>
+<script src="./assest/js/uimain.js"></script>
+</body>
+</html>
