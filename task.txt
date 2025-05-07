@@ -7,5 +7,4 @@ rahul:Order all Pages, about us, Certified Translations page,Supported Languages
 dhiraj:Account all Pages, Join Us,Standard Translations page,Supported Documents page all modal
 saakshi: Sign in / Register all page , email templates,contact page, all modal
 
-
 Note:- please make mobile/laptop/large/device all device responsive 
