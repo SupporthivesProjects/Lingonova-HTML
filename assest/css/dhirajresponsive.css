@@ -100,9 +100,11 @@
         align-items: center;
         gap: 32px;
         background-image: url(../images/fold_mob.png);
-        border-radius: 0px 61px 0px 0px;
-        border: 0px;
+        border: 2px solid var(--Grey-90, #E4E4E7);
         bottom: -216px;
+        border-radius: 20px 61px 20px 20px;
+        box-shadow: 0px 62px 250px 0px rgba(0, 0, 0, 0.05), 0px 31.388px 129.473px 0px rgba(0, 0, 0, 0.03), 0px 12.4px 48.263px 0px rgba(0, 0, 0, 0.03), 0px 2.713px 17.17px 0px rgba(0, 0, 0, 0.02);
+        background-color: #E4E4E7;
     }
 
     .text_b2 {
@@ -286,6 +288,7 @@
 
     .rgt_sec4 {
         position: static;
+        max-width: 355px;
     }
 
     .sec_4 {
@@ -343,7 +346,7 @@
         flex: 1 0 0;
         padding: 42px 8px;
         border-top: 1px solid #E2E2E2;
-        border-right: 1px solid #E2E2E2;
+        border-right: none;
         border-bottom: 1px solid #E2E2E2;
         background: var(--Grey-100, #FFF);
         position: relative;
@@ -358,7 +361,7 @@
         flex: 1 0 0;
         padding: 42px 8px;
         border-top: 1px solid #E2E2E2;
-        border-right: 1px solid #E2E2E2;
+        border-right: none;
         border-bottom: 1px solid #E2E2E2;
         background: var(--Grey-100, #FFF);
         position: relative;
@@ -373,7 +376,7 @@
         flex: 1 0 0;
         padding: 42px 8px;
         border-top: 1px solid #E2E2E2;
-        border-right: 1px solid #E2E2E2;
+        border-right: none;
         border-bottom: 1px solid #E2E2E2;
         background: var(--Grey-100, #FFF);
         position: relative;
@@ -389,7 +392,7 @@
         position: static;
         width: 100%;
         max-width: 327px;
-        height: 776px;
+        height: 800px;
         margin: auto;
     }
 
@@ -403,6 +406,17 @@
         flex-wrap: wrap;
     }
 
+    .green_circle1{
+        left: 0px;
+    }
+
+    .green_circle2{
+        left: 0px;
+    }
+
+    .green_circle3{
+        left: 0px;
+    }
 
     /* STANDARD */
 
@@ -467,6 +481,7 @@
 
     .btn_dlocal11 {
         width: 100%;
+        max-width: 216px;
     }
 
     .d_text_box h4 {
@@ -500,7 +515,7 @@
     }
 
     .dropdown-selected {
-        padding: 16px;
+        padding: 16px !important;
         cursor: pointer;
         border-radius: 8px;
         border: 1px solid var(--Primary---Light, #18B979);
@@ -508,7 +523,15 @@
         background-image: url(../images/drop_down.svg);
         background-repeat: no-repeat;
         background-position: center right 16px;
-        margin-bottom: 24px;
+        margin-bottom: 0px;
+        color: var(--Primary---Dark, #034833);
+        font-family: "Lexend";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 158%;
+        /* 25.28px */
+        text-transform: capitalize;
 
     }
 
@@ -522,23 +545,79 @@
         background: #fff;
         width: 100%;
         z-index: 100;
+        border-radius: 0px 0px 8px 8px;
+        border: 1px solid var(--Primary---Light, #18B979);
+        background: var(--Field-BG, #F1FAF1);
+        margin-top: -7px;
+        color: var(--Primary---Dark, #034833);
+        font-family: "Lexend";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 158%;
+        /* 25.28px */
+        text-transform: capitalize;
+        margin-bottom: 0px;
     }
 
     .dropdown-options li {
         padding: 10px;
         cursor: pointer;
+        color: var(--Primary---Dark, #034833);
+        font-family: "Lexend";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 158%;
+        /* 25.28px */
+        text-transform: capitalize;
+        margin-bottom: 0px;
     }
+
 
     .dropdown-options li:hover {
         background: #f0f0f0;
     }
+
+    .li_img {
+        margin-right: 24px;
+    }
+
+    .dropdown-options li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #000;
+        transition: color 0.3s ease;
+    }
+
+    .dropdown-options li:hover {
+        color: #18B979;
+    }
+
+    .dropdown-options li:hover .li_img {
+        filter: brightness(0) saturate(100%) invert(62%) sepia(77%) saturate(408%) hue-rotate(101deg) brightness(91%) contrast(94%);
+    }
+
 
     /* img {
         width: 20px;
         margin-right: 5px;
     } */
 
+    .custom-dropdown.open .dropdown-selected {
+        border-bottom: none;
+    }
 
+    .dropdown-selected {
+        border-bottom: 1px solid var(--Primary---Light, #18B979);
+        cursor: pointer;
+
+    }
+
+    .tab-content {
+        margin-top: 24px;
+    }
 
     .Selection_box {
         display: flex;
@@ -710,6 +789,7 @@
     .liine {
         width: 100%;
         height: 1px;
+        margin: 8px 0px;
 
     }
 
@@ -805,7 +885,7 @@
         gap: 24px;
         position: relative;
         width: 100%;
-        max-width: 327px;
+        max-width: 375px;
         height: 100%;
         margin: auto;
         padding: 0px;
@@ -840,7 +920,7 @@
         width: 27px;
         position: absolute;
         left: 46%;
-        top: 45.5%;
+        top: 48.9%;
         transform: translateX(11%);
     }
 
@@ -930,6 +1010,27 @@
         align-items: center;
         flex-direction: column;
         gap: 16px;
+        margin-bottom: 0px;
+    }
+
+    .btn_local {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+
+    .join_text_b12 {
+        display: flex;
+        width: 100%;
+        max-width: 327px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: auto;
+        flex-shrink: 0;
+    }
+
+    .last_green{
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
 
@@ -1045,6 +1146,43 @@
         height: 100%;
         min-height: 530px;
     }
+
+    .left_secs6 {
+        position: absolute;
+        left: 20px;
+        top: 131px;
+        width: 545px;
+    }
+
+    .text_b12 {
+        display: flex;
+        width: 100%;
+        max-width: 525px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-shrink: 0;
+    }
+
+    .sec_4 {
+        background-image: url(../images/bg_sec_4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 540px;
+        background-color: #fafafa;
+    }
+
+    .sec_6 {
+        background-image: url(../images/last_sec.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 625px;
+        background-color: #fafafa;
+    }
+
+
+
 
 
 

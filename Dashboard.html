@@ -303,10 +303,10 @@
                             <img src="./assets/images/ht1.svg" alt=""> Account Details
                         </div>
                         <ul class="dropdown-options">
-                            <li data-tab="1"><img src="./assest/images/ht1.svg" alt=""> Account Details</li>
-                            <li data-tab="2"><img src="./assest/images/ht2.svg" alt=""> Billing Info</li>
-                            <li data-tab="3"><img src="./assest/images/ht4.svg" alt=""> Order History</li>
-                            <li data-tab="4"><img src="./assest/images/ht4.svg" alt=""> Logout</li>
+                            <li data-tab="1"><img src="./assest/images/acc_1.svg" alt="" class="li_img"> Account Details</li>
+                            <li data-tab="2"><img src="./assest/images/acc_2.svg" alt="" class="li_img"> Billing Info</li>
+                            <li data-tab="3"><img src="./assest/images/acc_3.svg" alt=""class="li_img"> Order History</li>
+                            <li data-tab="4"><img src="./assest/images/acc_4.svg" alt="" class="li_img"> Logout</li>
                         </ul>
                     </div>
 
@@ -579,6 +579,20 @@
         });
 
     </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropdown = document.querySelector(".custom-dropdown");
+        const selected = dropdown.querySelector(".dropdown-selected");
+        const options = dropdown.querySelector(".dropdown-options");
+
+        selected.addEventListener("click", function () {
+            const isOpen = dropdown.classList.toggle("open");
+            options.style.display = isOpen ? "block" : "none";
+        });
+    });
+</script>
+
 </body>
 
 </html>
