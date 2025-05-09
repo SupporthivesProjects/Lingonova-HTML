@@ -14,6 +14,7 @@ let toogleBtn = document.querySelector('.navbar-toggler');
 
 toogleBtn.addEventListener('click',()=>{
     if(countimg == 0){
+        document.querySelector('.col-color-mo').style.padding="24px";
         document.querySelector('.tooglemenuimg').src ="./assest/images/x-mark.svg";
         document.querySelector('.container-color-box').classList.add('color-header');
       //document.querySelector('header').style.background="#1C1F26"
@@ -23,6 +24,7 @@ toogleBtn.addEventListener('click',()=>{
         document.querySelector('.tooglemenuimg').src ="./assest/images/Menu-Button.svg";
        // document.querySelector('header').style.background="transparent"
        document.querySelector('.container-color-box').classList.remove('color-header');
+        document.querySelector('.col-color-mo').style.padding="0";
         countimg = 0;
     }
 })

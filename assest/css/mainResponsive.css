@@ -1139,10 +1139,10 @@
         background-size: cover;
         background-position: 100% 100%;
         right: 0px;
-        height: 464px;
+        height: 500px;
         width: 100%;
         z-index: -1;
-        bottom: 44px;
+        bottom: 29px;
         left: 0px;
     } 
     html,body{
@@ -1170,12 +1170,16 @@
     .navbar-toggler:focus{
         box-shadow: none;
     }
+    .header-mobile-border{
+        padding: 16px 24px;
+        background: #E4E4E7;
+    }
     .container-color-box{
         display: block !important;
         width: 375px;
         border-radius: 0%;
         height: unset;
-        padding: 16px 0px;
+        padding: 0px 0px;
         flex-wrap: unset !important;
         justify-content: space-between;
         align-items: center !important;
@@ -1205,7 +1209,7 @@
         background: transparent !important;
         background-size: cover !important;
         background-position: center center !important;
-        height: 187px;
+        height: 210px;
         width: 100%;
         max-width: 100%;
         padding: 8px 0px;
@@ -1217,6 +1221,10 @@
         background: transparent !important;
         background-size: cover !important;
         background-position: center center !important;
+    }
+     .dropdown-menu-currency-bg .dropdown-item {
+    
+        text-align: justify;
     }
     .nav-link {
         color: var(--Grey-35, #59595A);
@@ -1234,10 +1242,13 @@
     }
     .col-right-box .btn{
         display: flex;
-        width: 47%;
+        width: 159px;
+        max-width:159px;
     }
     .col-color-mo{
-        padding-top: 0px;
+    }
+    .header-mobi{
+        padding: 0px 0px;
     }
     .col-color-mo .row{
         background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
@@ -1324,21 +1335,26 @@
     .carddrop-menu .dropdown-menu {
         position: absolute;
         border: 0px;
-        left: 0px;
+        left: -24px;
         right: 0px;
         top: 0px;
-        min-width: 364px;
+        min-width: 374px;
         /* margin: auto; */
         /* margin-left: -21px; */
-        margin-top: 56px;
+        margin-top: 62px;
+        border: 0px;
+        border-radius: 0px;
+        background: url(../images/dropdown-menu-cart-bg.png) no-repeat !important;
+        background-size: cover !important;
+        background-position: center center !important;
     }
     .cart-show {
-        width: 360px;
+        width: 374px;
         padding: 19px;
         max-height: 465px;
         overflow: scroll;
         margin: auto;
-        padding: 0px 18px;
+        padding: 0px 24px;
     }
     .col-right-box{
         display: flex;
@@ -1417,6 +1433,9 @@
     .home-video-content .btn-green-img {
         margin: auto;
         margin-top: 16px;
+        width: 333px;
+        max-width: 100%;
+
     }
     .home-video-content{
         padding:  24px 24px 24px;
@@ -1505,7 +1524,8 @@
         margin-bottom: 16px;
     }         
     .will-give-your{
-        padding: 40px 0px 24;
+        padding: 88px 0px;
+        height: 1569px;
     }
     .give-will-be-content {
         padding: 16px 12px 0px 11px;
@@ -1741,6 +1761,7 @@
     .we-are-polglost {
         padding-top: 0px;
         padding-bottom: 24px;
+        height: unset;
     }    
     .selectlanguage-content ul {
         width: 100%;
@@ -1826,7 +1847,7 @@
     height: 336px !important;
     transition: 1s;
     margin-right: 6px !important;
-    margin-left: 2px;
+    margin-left: 8px;
 }
 .divimg {
     position: relative;
@@ -1858,8 +1879,9 @@
     width: unset;
 }
 .every-bg-img .owl-item {
-    width: 325px !important; 
+    width: auto !important; 
 }
+
 .imgsapn {
     display: flex;
     padding: 8px 12px;
@@ -1984,7 +2006,7 @@
         padding: 0px;
     }
     .contactus-left {
-        border-radius: 10px;
+        border-radius: 20px;
         border: 1px solid var(--Grey-90, #E4E4E7);
         background: var(--Grey-100, #FFF);
         padding: 24px 16px;
@@ -2161,6 +2183,7 @@
     .text-body-emphasis img{
         width: 153px;
         max-width: 100%;
+        margin-top: 18px;
 
     }
     .list-unstyled {
