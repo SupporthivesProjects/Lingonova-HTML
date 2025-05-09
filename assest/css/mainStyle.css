@@ -8,10 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: lighter;
 }
 @font-face {
-  font-family: 'Rebel Kids';
-  src: url();
+  font-family: 'Bebas Neue Light';
+  src: url(../font/BebasNeueLight.ttf);
+  font-weight: lighter;
+}
+@font-face {
+    font-family: 'Bebas Neue Thin';
+    src: url(../font/BebasNeueThin.ttf);
+    font-weight:100;
 }
 @media (min-width: 576px){
     .container, .container-sm {
@@ -177,7 +184,7 @@ html,body{
 }
 .btn-black{
     border-radius: 84px;
-    border: 1px solid #FFF;
+    border: 0px solid #FFF;
     background: var(--Grey-10, #1A1A1A);
     box-shadow: 0px 1px 2px 0px rgba(42, 42, 42, 0.55), 0px 0px 0px 3px rgba(42, 42, 42, 0.17);
     display: flex;
@@ -192,6 +199,7 @@ html,body{
     font-weight: 400;
     line-height: 158%;
     text-transform: capitalize;
+    position: relative;
 }
 .btn-green{
     display: flex;
@@ -199,7 +207,7 @@ html,body{
     justify-content: center;
     align-items: center;
     border-radius: 84px;
-    border: 1px solid #FFF;
+    border: 0px solid #FFF;
     background: linear-gradient(180deg, rgba(18, 55, 40, 0.00) -175%, rgba(74, 255, 183, 0.50) 140%), linear-gradient(0deg, #00A764 0%, #00A764 100%), #FFF;
     box-shadow: 0px 1px 2px 0px rgba(29, 255, 165, 0.55), 0px 0px 0px 3px rgba(28, 255, 164, 0.17);
     color: var(--Grey-100, #FFF);
@@ -210,6 +218,7 @@ html,body{
     font-weight: 400;
     line-height: 158%; /* 25.28px */
     text-transform: capitalize;
+    position: relative;
 }
 .dropdown-item{
     color: var(--Grey-15, #262626);
@@ -221,13 +230,13 @@ html,body{
     text-transform: capitalize;
 }
 .activeitem {
-    background: var(--Field-BG, #F1FAF1);
+    /* background: var(--Field-BG, #F1FAF1);
     display: flex;
     padding: 8px 0px;
     gap: 10px;
     align-self: stretch;
     border-bottom: 2px rgba(179, 179, 179, 0.30);
-    border-bottom-style: dashed;
+    border-bottom-style: dashed; */
 }
 .activeitem a{
     color: var(--Primary---Light, #18B979);
@@ -351,10 +360,85 @@ html,body{
     margin-bottom: 0px;
 }
 .cart-show {
-    width: 462px;
+    width: 460px;
     padding: 32px;
-    max-height: 322px;
+    max-height: 450px;
     overflow: scroll;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: transparent;
+}
+.dropdown-menu-serviec-bg{
+    background: url(../images/Service-Dropdown.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 224px;
+    width: 221px;
+    max-width: 100%;
+    padding: 8px 0px; 
+} 
+.dropdown-menu-cart-bg{
+    background: url(../images/dropdown-menu-cart-bg.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: px;
+    min-width: 460px;
+    max-height: 450px;
+    overflow: scroll;
+}
+.dropdown-menu-currency-bg{
+    width: 97px;
+    text-align: center;
+    max-height: 244px;
+    background: url(../images/dropdown-menu-currency-bg.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.dropdown-item{
+    padding: 12px 16px;
+}
+
+.btn-black::after{
+    content: "";
+    background: url(../images/Abstract-Dots.png)no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 145px;
+    height: 28px;
+    margin: auto;
+
+}
+.btn-green::after{
+    content: "";
+    background: url(../images/Abstract-Dots.png)no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 145px;
+    height: 28px;
+    margin: auto;
+
+}
+.dropdown-toggle.show::after {
+    transform: rotate(180deg);
+    margin-bottom: -1px;
+}
+.dropdown-menu  li:hover{
+    background: var(--Field-BG, #F1FAF1);
+    border-bottom: 2px rgba(179, 179, 179, 0.30);
+    border-bottom-style: dashed;
+}
+.dropdown-menu  li:hover a{
+    color: var(--Primary---Light, #18B979);
 }
 /* -----------------------------home--------------------------------- */
 .home-banner-hero{
@@ -405,12 +489,12 @@ html,body{
     padding: 8px 8px 8px 16px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     border-radius: 84px;
     border: 1px solid #FFF;
     background: linear-gradient(180deg, rgba(18, 55, 40, 0.00) -175%, rgba(74, 255, 183, 0.50) 140%), linear-gradient(0deg, #00A764 0%, #00A764 100%), #FFF;
     box-shadow: 0px 1px 2px 0px rgba(29, 255, 165, 0.55), 0px 0px 0px 3px rgba(28, 255, 164, 0.17);
-    width: 353px;
+    width: 333px;
     max-width: 100%;
     color: var(--Grey-100, #FFF);
     text-align: center;
@@ -418,7 +502,7 @@ html,body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 158%; /* 25.28px */
+    line-height: 158%;
     text-transform: capitalize;
     margin-top: 32px;
 }
@@ -439,7 +523,7 @@ html,body{
 }
 .home-video-content h1 span{
     color: var(--Grey-15, #262626);
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue Light" !important;
     font-size: 87px;
     font-style: normal;
     font-weight: 400;
@@ -541,7 +625,7 @@ html,body{
     text-decoration: none;
 }
 .tranlation-card a svg{
-    margin-right: 10px;
+    margin-left: 21px;
 }
 .tranlation-card{
     margin-top: 64px;
@@ -625,6 +709,28 @@ html,body{
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
+}
+.give-will-be-content .btn-green-img {
+    display: flex;
+    padding: 9px 8px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 84px;
+    border: 1px solid #FFF;
+    background: linear-gradient(180deg, rgba(18, 55, 40, 0.00) -175%, rgba(74, 255, 183, 0.50) 140%), linear-gradient(0deg, #00A764 0%, #00A764 100%), #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(29, 255, 165, 0.55), 0px 0px 0px 3px rgba(28, 255, 164, 0.17);
+    width: 197px;
+    max-width: 100%;
+}
+.give-will-be-content .imgsapn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 61px;
+    background: var(--Grey-100, #FFF);
+    margin-left: -2px;
 }
 .give-will-be-content .btn-wrap{
     gap: 40px;
@@ -753,6 +859,10 @@ html,body{
 .stepcartmain{
     margin-top: 70px;
 }
+.how-its-works{
+    padding: 118px;
+    height: 707px;
+}
 .card-one, .card-three{
     border: 0px;
 }
@@ -866,6 +976,32 @@ html,body{
     width: 850px;
     max-width: 100%;
 }
+.we-are-polglost::before {
+    content: "";
+    background: url(../images/Lingo-Nova-Name-2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 140px;
+    height: 420px;
+    margin: auto;
+}
+.we-are-polglost::after {
+    content: "";
+    background: url(../images/Lingo-Nova-Name-1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 140px;
+    height: 420px;
+    margin: auto;
+}
 .selectlanguage-content{
     display: flex;
     width: 850px;
@@ -916,8 +1052,19 @@ html,body{
     padding: 75px 0px;
     border-radius: 40px;
 }
-
-
+.home-lasts::before {
+    content: "";
+    background: url(../images/Lingo-Nova-Name.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 140px;
+    height: 420px;
+    margin: auto;
+}
 .every-page-content h6{
     color: var(--Primary---Light, #18B979);
     font-family: Lexend;
@@ -1269,6 +1416,9 @@ html,body{
     padding-top: 0px;
     margin-bottom: -8px;
 }
+.accordion-button:not(.collapsed) {
+    color: var(--Grey-15, #262626);
+}
 
 .contact-right{
     background: url(../images/contact-info.png) no-repeat;
@@ -1298,6 +1448,9 @@ html,body{
     font-weight: 300;
     line-height: 150%;
     margin-bottom: 0px;
+}
+.contactform{
+    padding-bottom: 0px;
 }
 .contactusfgqs-title{
     padding: 72px 0px 60px;
@@ -1464,6 +1617,7 @@ html,body{
     max-width: 100%;
     margin: auto;
     text-align: center;
+    margin-top: 3rem;
 }
 .row-img h3{
     color: var(--Primary---Light, #18B979);
@@ -1541,7 +1695,8 @@ html,body{
     height: 410px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    padding: 68px 0px
 }
 .leagalcontentsec p{
     color: var(--Grey-40, #656567);
@@ -1579,7 +1734,7 @@ html,body{
     align-items: center;
     gap: 8px;
     border-radius: 84px;
-    border: 1px solid #FFF;
+    border: 0px solid #FFF;
     background: linear-gradient(180deg, rgba(18, 55, 40, 0.00) -175%, rgba(74, 255, 183, 0.50) 140%), linear-gradient(0deg, #00A764 0%, #00A764 100%), #FFF;
     box-shadow: 0px 1px 2px 0px rgba(29, 255, 165, 0.55), 0px 0px 0px 3px rgba(28, 255, 164, 0.17);
     width: 286px;
@@ -1595,6 +1750,8 @@ html,body{
     border-radius: 61px;
     background: var(--Grey-100, #FFF);
     margin-left: 22px;
+    width: 52px;
+    height: 36px;
 }
 footer{
     position: relative;
