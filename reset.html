@@ -140,41 +140,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur. Risus diam pharetra malesuada tellus vitae id ut at duis. </p>
       <input type="email" placeholder="Enter new password" />
       <input type="password" placeholder="Confirm new password" />
-      <a href="#" class="ls-btn" onclick="openModal()">Confirm new password</a>
+      <a href="#" class="ls-btn">Confirm new password</a>
             </div> 
         </section>
-
-
-
-<!-- Modal -->
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <div class="mcont-text">
-        <h2>Reset your password</h2>
-        <p>Lorem ipsum dolor sit amet consectetur. Risus diam pharetra malesuada tellus vitae id ut at duis. </p>
-    </div>
-    <input type="email" placeholder="Email Address">
-    <div class="form-options">
-        <div class="terms-sec">
-          <input type="checkbox" id="terms" />
-          <label for="terms">
-            I Agree To The <a href="#" class="tcs-p">Terms & Conditions</a> and
-            <a href="#" class="tcs-p">Privacy Policy</a>.
-          </label>
-        </div>
-        <img src="./assest/images/recaptcha.png" alt="">
-      </div>
-    <a href="#" class="ls-btn">submit</a>
-  </div>
-</div>
-<!-- Modal -->
-
-    </div>
-
-    
-
-          
+    </div>    
     <footer class="bd-footer">
         <img src="./assest/images/Module.png" class="img-fluid bg-image d-lg-block d-md-block d-none">
         <img src="./assest/images/footer-mo.png" class="img-fluid bg-image d-lg-none d-md-none d-block">
@@ -285,23 +254,6 @@
 <script src="./assest/js/swiper-bundle.min.js"></script>
 <script src="./assest/js/aos.js"></script>
 <script src="./assest/js/uimain.js"></script>
-<script>
-    function openModal() {
-      document.getElementById("myModal").style.display = "block";
-    }
-  
-    function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-    }
-  
-    // Optional: Close modal when clicking outside of it
-    window.onclick = function(event) {
-      const modal = document.getElementById("myModal");
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  </script>
 
 </body>
 </html>
