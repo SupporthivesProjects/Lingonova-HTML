@@ -620,6 +620,15 @@
         line-height: 150%;
         margin-bottom: 0px;
     }
+    .contactus-left {
+        border-radius: 10px;
+        border: 1px solid var(--Grey-90, #E4E4E7);
+        background: var(--Grey-100, #FFF);
+        padding: 40px 36px;
+        width: 530px;
+        max-width: 100%;
+        margin: auto;
+    }
     
 }
 @media only screen and (min-width: 1100px) and (max-width:1190px) {
@@ -745,7 +754,15 @@
         line-height: 150%;
         margin-bottom: 0px;
     }
-    
+    .contactus-left {
+        border-radius: 10px;
+        border: 1px solid var(--Grey-90, #E4E4E7);
+        background: var(--Grey-100, #FFF);
+        padding: 40px 36px;
+        width: 542px;
+        max-width: 100%;
+        margin: auto;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width:1290px) {
     .home-banner-hero::after {
@@ -856,6 +873,15 @@
         line-height: 150%;
         margin-bottom: 0px;
     }
+    .contactus-left {
+        border-radius: 10px;
+        border: 1px solid var(--Grey-90, #E4E4E7);
+        background: var(--Grey-100, #FFF);
+        padding: 40px 36px;
+        width: 582px;
+        max-width: 100%;
+        margin: auto;
+    }
 
 }
 @media only screen and (min-width: 1300px) and (max-width:1390px) {
@@ -936,6 +962,15 @@
         max-width: 100%;
         margin-left: 61px;
     }
+    .contactus-left {
+        border-radius: 10px;
+        border: 1px solid var(--Grey-90, #E4E4E7);
+        background: var(--Grey-100, #FFF);
+        padding: 40px 36px;
+        width: 582px;
+        max-width: 100%;
+        margin: auto;
+    }
 
 }
 @media only screen and (min-width: 1400px) and (max-width:1490px) {
@@ -976,6 +1011,15 @@
         font-weight: 400;
         line-height: 150%;
         margin-bottom: 0px;
+    }
+    .contactus-left {
+        border-radius: 10px;
+        border: 1px solid var(--Grey-90, #E4E4E7);
+        background: var(--Grey-100, #FFF);
+        padding: 50px 50px;
+        width: 636px;
+        max-width: 100%;
+        margin: auto;
     }
 }
 @media only screen and (min-width: 1500px) and (max-width:1590px) {
@@ -1344,12 +1388,13 @@
     }
     .home-video-content h1 span{
         color: var(--Grey-15, #262626);
-        font-family: "Bebas Neue";
+        font-family: "Bebas Neue Light";
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
         text-transform: uppercase;
+        padding: 0px 21px;
     }
     .home-hero-video {
         position: relative;
@@ -1757,6 +1802,11 @@
         margin-bottom: 16px;
         text-align: center;
     }
+    .div-bg-home {
+        background: url(../images/HomePage-line-bg-mo.png) no-repeat;
+        background-size: 100%;
+        background-position: top center;
+    }
 .every-bg-img {
     background-size: cover;
     background-position: center center;
@@ -1911,7 +1961,7 @@
     .col-box-three {
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 8px;
         margin-top: 16px;
         flex-direction: column;
     }
@@ -1941,6 +1991,7 @@
         width: 680px;
         max-width: 100%;
         margin: auto;
+        margin-bottom: 14px;
     }
     .contactform .form-check {
         display: block;

@@ -8,10 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: lighter;
 }
 @font-face {
-  font-family: 'Rebel Kids';
-  src: url();
+  font-family: 'Bebas Neue Light';
+  src: url(../font/BebasNeueLight.ttf);
+  font-weight: lighter;
+}
+@font-face {
+    font-family: 'Bebas Neue Thin';
+    src: url(../font/BebasNeueThin.ttf);
+    font-weight:100;
 }
 @media (min-width: 576px){
     .container, .container-sm {
@@ -516,7 +523,7 @@ html,body{
 }
 .home-video-content h1 span{
     color: var(--Grey-15, #262626);
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue Light" !important;
     font-size: 87px;
     font-style: normal;
     font-weight: 400;
@@ -1409,6 +1416,9 @@ html,body{
     padding-top: 0px;
     margin-bottom: -8px;
 }
+.accordion-button:not(.collapsed) {
+    color: var(--Grey-15, #262626);
+}
 
 .contact-right{
     background: url(../images/contact-info.png) no-repeat;
@@ -1438,6 +1448,9 @@ html,body{
     font-weight: 300;
     line-height: 150%;
     margin-bottom: 0px;
+}
+.contactform{
+    padding-bottom: 0px;
 }
 .contactusfgqs-title{
     padding: 72px 0px 60px;
