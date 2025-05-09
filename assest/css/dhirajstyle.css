@@ -67,6 +67,7 @@
     line-height: 100%;
     text-transform: uppercase;
     margin-bottom: 0px;
+    margin-top: -25px;
 }
 
 .bolld {
@@ -313,7 +314,7 @@
     align-items: center;
     border-radius: 20px 112px 20px 20px;
     background-image: url(../images/fold_bggf.png);
-    border: 2px solid var(--Grey-90, #E4E4E7);
+    border: 0px solid var(--Grey-90, #E4E4E7);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -473,6 +474,22 @@
     margin-bottom: 20px;
 }
 
+.sec_3 {
+    background-image: url(../images/commmam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bggg {
+    background-image: url(../images/commmam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
 .sec_3_box {
     display: flex;
     padding: 72px 0px;
@@ -542,18 +559,18 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 804px;
-    background-color: #fafafa;
+    background-color: transparent;
 }
 
 .left_secs {
     position: absolute;
-    left: -152px;
+    left: -114px;
     top: 72px;
 }
 
 .left_secs6 {
     position: absolute;
-    left: -152px;
+    left: -114px;
     top: 131px;
 }
 
@@ -572,7 +589,7 @@
 
 .rgt_sec4 {
     position: absolute;
-    right: -256px;
+    right: -220px;
 }
 
 .sec_5 {
@@ -585,7 +602,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 792px;
-    background-color: #fafafa;
+    background-color: transparent;
 }
 
 .sec5_lft {
@@ -789,6 +806,14 @@
     margin-top: 18px;
 }
 
+.if_b2ffcc {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 18px;
+}
+
+
 
 .sec_6 {
     position: relative;
@@ -832,8 +857,8 @@
 /* MY ACC */
 
 .loower_body {
-    background-image: url(../images/lower_bgg.png);
-    background-color: #F9F9F9;
+    background-image: url(../images/commmam.png);
+    background-color: transparent;
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -847,7 +872,15 @@
     min-height: 411px;
     height: 100%;
     padding-bottom: 0px;
-    background-color: #F9F9F9;
+    background-color: transparent;
+}
+
+.order_detailsss {
+    background-image: url(../images/commmam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 112px 0px 0px;
 }
 
 .upper_div {
@@ -1607,6 +1640,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .jssec_rgt_box {
@@ -1990,7 +2024,9 @@ input[type="file"] {
 }
 
 .four_box {
-    background: rgba(251, 251, 251, 0.70);
+    background-image: url(../images/Contact-main-bg.png);
+    background-position: center center;
+    background-size: cover;
 }
 
 .js_left {
@@ -2004,4 +2040,10 @@ input[type="file"] {
     position: absolute;
     right: -45px;
     bottom: -45px;
+}
+
+.last_green {
+    background-image: url(../images/Contact-main-bg.png);
+    background-position: center center;
+    background-size: cover;
 }
