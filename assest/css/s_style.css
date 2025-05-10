@@ -212,10 +212,14 @@ text-transform: capitalize;
   background-repeat: no-repeat;
   background-position: center;
     height: 410px;
+    width: 100vw;
     /* border-radius: 0px 0px 350px 350px; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#img-cont{
+  z-index: 0;
 }
 .login-signup{
     display: flex;
@@ -979,6 +983,7 @@ height: 488px;
   } 
   .bg-cont{
     height: 231px;
+
     padding: 40px 24px;
   }
   #hero-heading{
