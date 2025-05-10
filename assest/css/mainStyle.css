@@ -257,7 +257,7 @@ html,body{
     border: 1px solid var(--Grey-90, #E4E4E7);
     background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
     min-width: fit-content;
-    margin-top: 46px;
+    margin-top: 39px;
     background: #F9F9F9;
 }
 .container-color-box{
@@ -316,7 +316,7 @@ html,body{
 }
 .cartmo .dropdown-menu{
     position: absolute;
-    left: -9rem;
+    left: -14rem;
     right: 0px;
 }
 .cart-price h5{
