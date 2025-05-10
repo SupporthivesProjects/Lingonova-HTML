@@ -471,10 +471,14 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 p-mo">
                                     <div class="we-are-img"  >
                                         <div class="we-are-img-content">
-                                            <h6> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="9" viewBox="0 0 23 9" fill="none">
+                                            <h6 class="d-lg-block d-md-block d-none"> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="9" viewBox="0 0 23 9" fill="none">
                                                 <line y1="4.86914" x2="19" y2="4.86914" stroke="#18B979" stroke-width="2"></line>
                                                 <circle cx="20.5" cy="4.86914" r="2.5" fill="#034833"></circle>
                                               </svg>Speak More Than One Language?</h6>
+                                              <h6 class="d-lg-none d-md-none d-block"> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="9" viewBox="0 0 23 9" fill="none">
+                                                <line y1="4.86914" x2="19" y2="4.86914" stroke="#18B979" stroke-width="2"></line>
+                                                <circle cx="20.5" cy="4.86914" r="2.5" fill="#034833"></circle>
+                                              </svg> Supported Languages</h6>
                                             <h2>We’re polyglots!</h2>
                                             <p>
                                                 Lorem ipsum dolor sit amet consectetur. Elementum sed bibendum 
@@ -753,12 +757,13 @@
             <div class="container">
                 <div class="col">
                     <div class="row">
-                        <div class="col-lg-7 col-md-12 col-sm-12 col-12 order-1 order-lg-0">
+                        <div class="col-lg-7 col-md-12 col-sm-12 col-12 order-1 order-lg-0 align-self-center">
                             <div class="home-lastc-content"  >
                                 <h6> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="9" viewBox="0 0 23 9" fill="none">
                                     <line y1="4.86914" x2="19" y2="4.86914" stroke="#18B979" stroke-width="2"></line>
                                     <circle cx="20.5" cy="4.86914" r="2.5" fill="#034833"></circle>
                                   </svg>Speak More Than One Language?</h6>
+                                  
                                 <h2>Become a Lingo Nova Translator</h2>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur. Nullam faucibus consequat 
@@ -905,19 +910,21 @@
 		margin: 30,
 		dots: false,
 		nav: false,
-        //stagePadding:0,
-        //center:true,
         responsive:{
             0:{
-                items:1,
-                margin: 0,
-                stagePadding:0,
+                loop:false,
+                margin:10,
+                items: 1,
             },
             300:{
-                items:1
+                items:1,
+                loop:false,
+                margin:10,
             },
             600:{
-                items:1
+                items:1,
+                loop:false,
+                margin:10,
             },
             900:{
                 items:3

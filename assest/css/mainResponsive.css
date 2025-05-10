@@ -1144,13 +1144,17 @@
         z-index: -1;
         bottom: 29px;
         left: 0px;
-    } 
+    }
+    
     html,body{
         overflow-x: hidden;
         width: 100%;
     }
     .fixed-top{
         background: var(--Grey-97, #F7F7F8);    
+    }
+    header {
+        background: #E4E4E7 !important;
     }
     .d-mobile-show{
         display: block;
@@ -1183,7 +1187,7 @@
         flex-wrap: unset !important;
         justify-content: space-between;
         align-items: center !important;
-        /* border-bottom: 0px solid var(--Grey-90, #E4E4E7); */
+        border: 0px solid var(--Grey-90, #E4E4E7); 
         background:url(../images/Menu-bg-mo.png) no-repeat;
         background-size: cover;
         background-position: center center;
@@ -2268,7 +2272,8 @@
     }
 
     .footertop-title .btn-green-img {
-        display: flex;
+        display: flex
+    ;
         padding: 8px 8px 8px 16px;
         justify-content: center;
         align-items: center;
