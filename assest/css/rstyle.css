@@ -875,7 +875,7 @@
   padding: 0px;
 }
 .abt_c3{
-  padding: 72px 0px;
+  padding: 0px 0px 72px 0px;
   display: flex;
   flex-direction: row;
   gap: 0px;
@@ -941,6 +941,7 @@
   gap: 32px;
   width: 90%;
   margin: auto;
+  align-items: center;
 }
 .abt_s4top{
   display: flex;
@@ -1371,7 +1372,7 @@
   align-items: center;
   gap: 16px;
   flex-shrink: 0;
-  min-width: 118px;
+  padding: 0px 16px;
   height: 78px;
   text-align: center;
 }
