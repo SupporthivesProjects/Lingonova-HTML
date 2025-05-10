@@ -29,6 +29,20 @@ toogleBtn.addEventListener('click',()=>{
     }
 })
 
+let countimg1 = 0;
+let toogleBtn1 = document.querySelector('.shipping-cart');
+
+toogleBtn1.addEventListener('click',()=>{
+    if(countimg1 == 0){
+        document.querySelector('.shipping-cart img').src ="./assest/images/green-cart-icon.svg";
+      countimg1 = 1;
+    }
+    else{
+        document.querySelector('.shipping-cart img').src ="./assest/images/shopping-cart.svg";
+        countimg1 = 0;
+    }
+})
+
 
 // sldier home page
 
