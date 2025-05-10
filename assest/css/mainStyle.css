@@ -137,6 +137,9 @@ html,body{
     background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
     background: #F9F9F9;
 }
+.header-mobi{
+    padding: 4px 0px;
+}
 .cart-count{
     color: var(--Grey-100, #FFF);
     text-align: center;
@@ -254,7 +257,7 @@ html,body{
     border: 1px solid var(--Grey-90, #E4E4E7);
     background: var(--BG, url(<path-to-image>) lightgray 0% 0% / 29.269999265670776px 29.269999265670776px repeat, #F9F9F9);
     min-width: fit-content;
-    margin-top: 46px;
+    margin-top: 39px;
     background: #F9F9F9;
 }
 .container-color-box{
@@ -313,7 +316,7 @@ html,body{
 }
 .cartmo .dropdown-menu{
     position: absolute;
-    left: -9rem;
+    left: -14rem;
     right: 0px;
 }
 .cart-price h5{
@@ -650,6 +653,12 @@ html,body{
     background-position: center center;
     height: 672px;
 }
+.will-give-your{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 .give-will-be-content h6{
     color: var(--Primary---Light, #18B979);
     font-family: Lexend;
@@ -922,8 +931,13 @@ html,body{
     line-height: 100%;
     text-transform: uppercase;
 }
-.we-are-polglost{
+.we-are-polglost {
     padding-top: 0px;
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 .div-bg-home{
    padding-top: 72px; 
@@ -1045,6 +1059,12 @@ html,body{
 .everypageing{
     padding: 0px 44px;
 }
+.home-lasts{
+    height: 788px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .every-bg-img{
     background: url(../images/erverypagebg.png) #034833 no-repeat;
     background-size: cover;
@@ -1151,6 +1171,20 @@ html,body{
     line-height: 100%;
     text-transform: uppercase;
 }
+.img-content .btn-green-img {
+    display: flex;
+    padding: 8px 8px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-radius: 84px;
+    border: 1px solid #FFF;
+    background: linear-gradient(180deg, rgba(18, 55, 40, 0.00) -175%, rgba(74, 255, 183, 0.50) 140%), linear-gradient(0deg, #00A764 0%, #00A764 100%), #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(29, 255, 165, 0.55), 0px 0px 0px 3px rgba(28, 255, 164, 0.17);
+    width: 258px;
+    max-width: 100%;
+}
+
 
 .divimg {
     position: relative;
@@ -1749,7 +1783,7 @@ html,body{
     gap: 10px;
     border-radius: 61px;
     background: var(--Grey-100, #FFF);
-    margin-left: 22px;
+    margin-left: 5px;
     width: 52px;
     height: 36px;
 }
